@@ -15,12 +15,14 @@
 .page {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    color: var(--slate-color);
+    background-color: var(--white-color);
 
 }
 .body{
     font-family: "Roboto",sans-serif;
     color: var(--slate-color);
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 
 }
 /* Header styles */
@@ -60,16 +62,44 @@
 }
 
 .header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navi-blue-color); 
+}
+.header-link:hover {
+color: var(--ocean-color);
+}
+
+.header-link:focus {
+color: var(--ocean-color);
+}
+.address {
+    font-style: normal;
+}
+
+.address-list {
+
+}
+
+.address-items {
     
 }
 
-
-.header-networks-item {
-
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
 }
 
-.header-networks-link {
+.address-link:hover {
+    color: var(--ocean-color);
+}
 
+.address-link:focus {
+    color: var(--ocean-color);
 }
 /*filters style */
 
