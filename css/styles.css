@@ -71,15 +71,17 @@
 .header-networks-link {
 
 }
-/* Section filters */
-.section {
+/*filters style */
+
+.filters-title {
 
 }
-
-.filters {
+.section-filters {
 
 }
+.filters-item {
 
+}
 .filter-list {
     
 }
@@ -93,18 +95,6 @@
         color: var(--iris-color);
         background-color: var(--cloud-color);
         cursor: pointer;
-
-}
-
-.filter-link {
-
-}
-/* Row styles */
-.section-raw {
-
-}
-
-.raw-list {
 
 }
 
