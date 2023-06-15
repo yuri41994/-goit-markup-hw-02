@@ -1,4 +1,20 @@
+:root {
+    --iris-color: #4d5ae5;
+    --ocean-color: #404bbf;
+    --navi-blue-color: #2e2f42;
+    --green-color: #31d0aa;
+    --slate-color: #434455;
+    --light-slate-color: #8e8f99;
+    --cornflower-color: #e7e9fc;
+    --cloud-color: #f4f4fd;
+    --navi-blue-modal-color: rgba(46, 47, 66, 0.4);
+    --gray-color: rgba(46, 47, 66, 0.7);
+    --white-color: #ffffff;
+    --dairy-color: #fcfcfc;
+}
 .page {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 /* Header styles */
@@ -8,10 +24,24 @@
 
 .header-nav {
 
+
+}
+.header-link {text-decoration: none;
+
 }
 
 .header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
 
+.header-logo-studio {
+    color: var(--navi-blue-color);
 }
 
 .header-list {
@@ -23,8 +53,9 @@
 }
 
 .header-link {
-
+    
 }
+
 
 .header-networks-item {
 
@@ -46,23 +77,99 @@
     
 }
 
-.item {
+.filters-button {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--iris-color);
+        background-color: var(--cloud-color);
+        cursor: pointer;
 
 }
 
 .filter-link {
 
 }
+/* Row1 styles */
+.section-row1 {
+
+}
+
+.row1-list {
+
+}
+
+.row1-items {
+
+}
+
+.row1-image {
+
+}
+
+/* Row2 styles */
+
+.section-row2 {
+
+}
+
+.row2-list {
+
+}
+
+.row-items {
+
+}
+
+.row2-image {
+
+}
+
+/* Row3 styles */
+
+.section-row3 {
+
+}
+
+.row3-list {
+
+}
+
+.row3-image {
+
+}
 
 /* Footer styles */
-.footer {
+.footer { background-color: var(--navi-blue-color);
 
 }
 
 .footer-link {
-
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--iris-color);
+    }
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+.footer-logo-studio {
+    color: var(--cloud-color);
 }
 
 .footer-text {
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud-color);
 }
