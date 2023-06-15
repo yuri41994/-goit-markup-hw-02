@@ -73,21 +73,24 @@
 }
 /*filters style */
 
+.section-portfolio {
+
+}
+
 .filters-title {
 
 }
-.section-filters {
+
+.list {
 
 }
-.filters-item {
+
+.filters-list {
 
 }
-.filter-list {
-    
-}
 
-.filters-button {
-    font-family: "Roboto", sans-serif;
+.filters-button{
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -95,33 +98,46 @@
         color: var(--iris-color);
         background-color: var(--cloud-color);
         cursor: pointer;
+    }
+.filters-button:hover{
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+.filters-button:focus{
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+.raw-list {
 
 }
 
-.raw-items {
+.raw-item {
 
 }
 
-.raw-image {
+.link {
 
 }
-.raw-title{
-    font-weight: 500px;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navi-blue-color) ;
+
+.raw-link {
 
 }
+
+.raw-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navi-blue-color);
+    }
+
+
 .raw-class {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate-color);
-    
-}
-
-
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+    }
 /* Footer styles */
 .footer { background-color: var(--navi-blue-color);
 
