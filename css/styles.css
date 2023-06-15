@@ -17,6 +17,12 @@
     font-family: 'Roboto', sans-serif;
 
 }
+.body{
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
 /* Header styles */
 .header {
 
@@ -154,6 +160,7 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--iris-color);
+        text-decoration: none;
     }
 .footer-logo {
     font-family: "Raleway", sans-serif;
