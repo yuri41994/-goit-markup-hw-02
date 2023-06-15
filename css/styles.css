@@ -82,6 +82,7 @@
 }
 
 .list {
+text-decoration: none;
 
 }
 
@@ -116,10 +117,12 @@
 }
 
 .link {
+    text-decoration: none;
 
 }
 
 .raw-link {
+    text-decoration: none;
 
 }
 
