@@ -157,13 +157,18 @@ color: var(--ocean-color);
             
         
     
-        .section {
+        .section-hidden{
 
         }
     
-        .hidden {
+       .section-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navi-blue-color);
 
-        }
+       }
     
         .hidden-list {
 
@@ -174,6 +179,9 @@ color: var(--ocean-color);
         }
     
         .hidden-abzac {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
 
         }
     
