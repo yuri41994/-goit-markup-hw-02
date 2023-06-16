@@ -120,6 +120,106 @@ color: var(--ocean-color);
 
 .address-link:focus {
     color: var(--ocean-color);
+    /* index main */
+    .main {
+        background-color:#2e2f42;
+    }
+    
+        .section-hero {
+
+        }
+    
+        .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color:#ffffff;
+
+        }
+    
+        .hero-btn {
+        background-color: #4d5ae5;
+        font-family:"roboto",sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        }
+        .hero-btn:hover:{
+            background-color: var(--ocean-color)
+        }
+        .hero-btn:focus:{
+        background-color: var(--ocean-color)
+        }
+            
+        
+    
+        .section {
+
+        }
+    
+        .hidden {
+
+        }
+    
+        .hidden-list {
+
+        }
+    
+        .hidden-items {
+
+        }
+    
+        .hidden-abzac {
+
+        }
+    
+        .hidden-text {
+
+        }
+    
+        .section-what-we-doing {
+
+        }
+    
+        .wawd-abzac {
+
+        }
+    
+        .wawd-list {
+
+        }
+    
+        .wawd-items {
+
+        }
+    
+        .wawd-images {
+
+        }
+    
+        .section-our-team {
+
+        }
+    
+        .our-abzac {
+
+        }
+    
+        .our-list {
+
+        }
+    
+        .our-items {
+
+        }
+    
+        .our-images {
+
+        }
 }
 /*filters style */
 
