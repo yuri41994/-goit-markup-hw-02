@@ -51,6 +51,8 @@
 
 .header-logo-studio {
     color: var(--navi-blue-color);
+    list-style: none;
+
 }
 
 .header-list {
@@ -58,7 +60,19 @@
 }
 
 .header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navi-blue-color);
 
+}
+.header-item:hover{
+    color: var(--ocean-color);
+
+}
+.header-item:focus{
+    color:var(--ocean-color)
 }
 
 .header-link {
