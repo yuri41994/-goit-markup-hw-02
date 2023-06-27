@@ -18,6 +18,15 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 
 .link {
     text-decoration: none;
@@ -103,6 +112,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
+   
 }
 
 .hero-button {
